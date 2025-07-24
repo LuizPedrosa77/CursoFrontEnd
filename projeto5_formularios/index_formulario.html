@@ -10,11 +10,38 @@
     <h1>Formulários</h1>
     <form>
         <label for="">Primeiro nome</label>
-        <input type="text" id="pnome" name="pnome" placeholder="Seu primeiro nome"> <br><br>
+        <input type="text" id="pnome" name="pnome" placeholder="Seu primeiro nome" required> <br><br>
 
         <label for="unome">Ultimo nome</label>
-        <input type="text" id="unome" name="unome" placeholder="Seu ultimo nome"> <br><br>
+        <input type="text" id="unome" name="unome" placeholder="Seu ultimo nome" required> <br><br>
 
+        <!--TIPO RÁDIO-->
+        <label>
+            <strong>Qual seu nível de programador?</strong>
+        </label><br>
+        <label>
+            <input type="radio" name="nivel" valeu="iniciante" checked>Sou iniciante
+        </label>
+        <label>
+            <input type="radio" name="nivel" value="medio">Comecei a pouco tempo
+        </label>
+        <label>
+            <input type="radio" name="nivel" value="avancado">Sou avançado
+        </label> <br><br>
+
+        <!--Tipo "select" para selecionar itens-->
+        <label for="escolaridade">
+            <strong>Sua escolaridade</strong>
+        </label>
+        <select ir="escolaridade" required>
+            <option selected disabled valeu="">Selecione</option>
+            <option>Educação básica</option>
+            <option>Ensino médio</option>
+            <option>Ensino superior</option>
+            <option>Pós graduação</option>
+        </select>
+
+        <br><br>
         <input type="submit" value="Cadastrar">
     </form>
 
