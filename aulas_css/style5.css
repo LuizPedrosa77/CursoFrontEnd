@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    /* Link da informação: https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
+
+}
+
+body{
+    font-family: 'robot', sans-serif;
+}
+
+.container{
+    background-color: #121212;
+    width: 700px;
+    color: #ffffff;
+    margin: auto;
+    /* Essa é a aplicação geral do "padding" */
+    padding: 50px;
+    border: 5px solid #e00707;
+    /* arrendondamento da margem*/
+    border-radius: 10px;
+
+}
+
+.rede-social h2{
+    text-align: center;
+}
+
+.rede-social ul{
+    padding: 0;
+    list-style: nome;
+    text-align: center;
+}
+
+.rede-social li{
+    margin-bottom: 10px;
+}
+
+.rede-social a{
+    text-decoration: none;
+    color: #121212;
+}
+
+.rede-social a:hover{
+    color: #ff0000
+}

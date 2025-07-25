@@ -1,0 +1,34 @@
+body{
+    font-family: 'robot', sans-serif;
+}
+
+.container{
+    background-color: #121212;
+    width: 700px;
+    color: #ffffff;
+    
+    /* Essas margens são aplicadas com numeros e posições diferentes*/
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+
+    /* Essa margem é aplicada de forma geral no Body */
+    /*margin: 50px; */
+
+    /* PADDING: é o espaçamento interno*/
+
+    /* Essa é a aplicação geral do "padding" */
+    /* padding: 30px; */
+    
+    /* Essa é a aplicação separada por áreas */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 5px;
+
+    border: 5px solid #e00707;
+    
+    /* arrendondamento da margem*/
+    border-radius: 10px;
+}
