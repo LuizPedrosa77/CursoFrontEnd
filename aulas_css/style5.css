@@ -21,6 +21,8 @@ body{
 
 }
 
+/* Abaixo foi feito tramaneot do elemento h2 que está contido em <aside></aside>*/
+
 .rede-social h2{
     text-align: center;
 }
