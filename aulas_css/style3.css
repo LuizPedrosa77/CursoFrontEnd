@@ -1,0 +1,21 @@
+/* NÃO PRECISA DECORAR COR! PASSANDO O MOUSE POR SIMA DA COR, JÁ MOSTRA AS OPÇÕES DE CORES! */
+
+/* Primeira maneira de adicionar cores mas não é boa pratica */
+.primeiro-h1{
+    color: red;
+    /* Para usar fonte recomendadas pelo VSC é: Ctrl+espaço */
+    /* Para utilizar fontes extrenas */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Segunda maneira de adicionar cores */
+.segundo-h1{
+    color: #c90303;
+    /* Adicionando fonte externa*/
+    font-family: 'roboto', sans-serif;
+}
+
+/* Terceira maneira de adicionar cores */
+.terceiro-h1{
+    color: rgb(0, 0, 255) /* Aqui no RGB pode ser incluido OPACIDADE após a ultima virgula: rgb(0,0,255, 0.1 equivale a porcentagem */
+}
