@@ -1,0 +1,7 @@
+/*
+    O codigo abaixo vai incluir a cor e a fonte em todos os <h1> que houverem no site.
+*/
+h1{
+    color: brown;
+    font-size: 45px;
+}
