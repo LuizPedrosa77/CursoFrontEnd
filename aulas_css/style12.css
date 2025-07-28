@@ -1,0 +1,62 @@
+*{
+    /* APLICANDO RESET DE ESPAÇO NO SITE*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    font-family: 'robot', sans-serif;
+    height: 180vh;
+}
+
+.container{
+    background-color: #121212;
+    height: 500px;
+    margin: 50px;
+
+    /* ATIVANDO FLEXBOX NO CONTAINER */
+    display: flex;
+    /* Se o flex-direction estiver com "row" ficará em linhas e se for "column" é coluna. Pode
+    usar o "reverse" após o  "row" ou "column"*/
+    flex-direction: row;
+
+    /* Justify content - ele sempre atua apenas na div pai */
+
+        /*Opções de uso para o 'justify-content*/
+    /*
+    1. flex-end - Alinha no final da linha no topo
+    2. center - Alinha no centro da linha no topo
+    3. space-between - Espaççamento igual entre eles
+    4. space-around - Espaçamento igual entre eles com folga nos campos
+    */
+
+    justify-content: center;
+    align-items: center;
+}
+
+.area{
+    width: 100px;
+    height: 100px;
+    font-size: 25px;
+    
+}
+    /*A utilização do comando "flex" só funciona se a div for filho e estiver dentro de
+     um container*/
+
+    /* Usando o "order: 1 - 2 - 3" pode ajustar a ordem das cores.*/
+.item-1{
+    background-color: red;
+    align-self: flex-end;    
+}
+.item-2{
+    background-color: blue;
+    align-self: flex-start;
+}
+.item-3{
+    background-color: chartreuse;
+}
+.item-4{
+    background-color: chocolate;
+}

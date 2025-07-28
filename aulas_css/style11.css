@@ -1,0 +1,48 @@
+*{
+    /* APLICANDO RESET DE ESPAÇO NO SITE*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    font-family: 'robot', sans-serif;
+    height: 180vh;
+}
+
+.container{
+    background-color: #121212;
+    height: 500px;
+    margin: 50px;
+
+    /* ATIVANDO FLEXBOX NO CONTAINER */
+    display: flex;
+    /* Se o flex-direction estiver com "row" ficará em linhas e se for "column" é coluna. Pode
+    usar o "reverse" após o  "row" ou "column"*/
+    flex-direction: row-reverse;
+}
+
+.area{
+    width: 100px;
+    height: 100px;
+    font-size: 25px;
+    
+}
+    /*A utilização do comando "flex" só funciona se a div for filho e estiver dentro de
+     um container*/
+
+    /* Usando o "order: 1 - 2 - 3" pode ajustar a ordem das cores.*/
+.item-1{
+    background-color: red;
+    order: 2;
+}
+.item-2{
+    background-color: blue;
+    order: 1;
+}
+.item-3{
+    background-color: chartreuse;
+    order: 3;
+    
+}
