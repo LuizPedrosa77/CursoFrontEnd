@@ -1,0 +1,42 @@
+*{
+    /* APLICANDO RESET DE ESPAÇO NO SITE*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body{
+    font-family: 'robot', sans-serif;
+    height: 180vh;
+}
+
+.container{
+    background-color: #121212;
+    height: 500px;
+    margin: 50px;
+
+    /* ATIVANDO FLEXBOX NO CONTAINER */
+    display: flex;
+    /* Se o flex-direction estiver com "row" ficará em linhas e se for "column" é coluna. Pode
+    usar o "reverse" após o  "row" ou "column"*/
+    flex-direction: column;
+}
+
+.area{
+    width: 100px;
+    height: 100px;
+}
+
+.item-1{
+    background-color: red;
+    flex: 1;
+}
+.item-2{
+    background-color: blue;
+    flex: 1;
+}
+.item-3{
+    background-color: chartreuse;
+    flex: 1;
+}
